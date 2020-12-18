@@ -39,7 +39,7 @@ function draw() {
   textFont('The Roman Times');
   textSize(40);
   fill(0);
-  text(songs[currentSong], 150, 300);
+  text(songs[currentSong], 100, 300);
 
 play.mousePressed(playSound);
 pause.mousePressed(stopSound);
